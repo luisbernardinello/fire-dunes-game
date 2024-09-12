@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\WizardPath\\computer-wizard\\BCC\\disciplina-projeto-computacao-grafica\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E28A46D1-9A83-8737-4862-4CAE54AD80C5}|Assembly-CSharp.csproj|c:\\wizardpath\\computer-wizard\\bcc\\disciplina-projeto-computacao-grafica\\assets\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E28A46D1-9A83-8737-4862-4CAE54AD80C5}|Assembly-CSharp.csproj|solutionrelative:assets\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "C:\\WizardPath\\computer-wizard\\BCC\\disciplina-projeto-computacao-grafica\\Assets\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\PlayerMovement.cs",
+              "ToolTip": "C:\\WizardPath\\computer-wizard\\BCC\\disciplina-projeto-computacao-grafica\\Assets\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\PlayerMovement.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAqwC0AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T15:42:39.042Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
