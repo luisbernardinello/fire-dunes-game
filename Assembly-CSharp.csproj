@@ -60,8 +60,11 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.37f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Player.cs" />
+    <Compile Include="Assets\WeaponVisualController.cs" />
     <Compile Include="Assets\PlayerControls.cs" />
     <Compile Include="Assets\PlayerMovement.cs" />
+    <Compile Include="Assets\PlayerWeaponController.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
