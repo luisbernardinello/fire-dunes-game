@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\WizardPath\\computer-wizard\\BCC\\disciplina-projeto-computacao-grafica\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E28A46D1-9A83-8737-4862-4CAE54AD80C5}|Assembly-CSharp.csproj|C:\\WizardPath\\computer-wizard\\BCC\\disciplina-projeto-computacao-grafica\\assets\\lefthandtargettransform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E28A46D1-9A83-8737-4862-4CAE54AD80C5}|Assembly-CSharp.csproj|solutionrelative:assets\\lefthandtargettransform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E28A46D1-9A83-8737-4862-4CAE54AD80C5}|Assembly-CSharp.csproj|c:\\wizardpath\\computer-wizard\\bcc\\disciplina-projeto-computacao-grafica\\assets\\weaponvisualcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E28A46D1-9A83-8737-4862-4CAE54AD80C5}|Assembly-CSharp.csproj|solutionrelative:assets\\weaponvisualcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E28A46D1-9A83-8737-4862-4CAE54AD80C5}|Assembly-CSharp.csproj|C:\\WizardPath\\computer-wizard\\BCC\\disciplina-projeto-computacao-grafica\\assets\\weaponvisualcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E28A46D1-9A83-8737-4862-4CAE54AD80C5}|Assembly-CSharp.csproj|solutionrelative:assets\\weaponvisualcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E28A46D1-9A83-8737-4862-4CAE54AD80C5}|Assembly-CSharp.csproj|C:\\WizardPath\\computer-wizard\\BCC\\disciplina-projeto-computacao-grafica\\assets\\playeranimationevents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E28A46D1-9A83-8737-4862-4CAE54AD80C5}|Assembly-CSharp.csproj|solutionrelative:assets\\playeranimationevents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E28A46D1-9A83-8737-4862-4CAE54AD80C5}|Assembly-CSharp.csproj|C:\\WizardPath\\computer-wizard\\BCC\\disciplina-projeto-computacao-grafica\\assets\\lefthandtargettransform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E28A46D1-9A83-8737-4862-4CAE54AD80C5}|Assembly-CSharp.csproj|solutionrelative:assets\\lefthandtargettransform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E28A46D1-9A83-8737-4862-4CAE54AD80C5}|Assembly-CSharp.csproj|C:\\WizardPath\\computer-wizard\\BCC\\disciplina-projeto-computacao-grafica\\assets\\playerweaponcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,36 +34,48 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "PlayerAnimationEvents.cs",
+              "DocumentMoniker": "C:\\WizardPath\\computer-wizard\\BCC\\disciplina-projeto-computacao-grafica\\Assets\\PlayerAnimationEvents.cs",
+              "RelativeDocumentMoniker": "Assets\\PlayerAnimationEvents.cs",
+              "ToolTip": "C:\\WizardPath\\computer-wizard\\BCC\\disciplina-projeto-computacao-grafica\\Assets\\PlayerAnimationEvents.cs",
+              "RelativeToolTip": "Assets\\PlayerAnimationEvents.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T20:18:33.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "LeftHandTargetTransform.cs",
               "DocumentMoniker": "C:\\WizardPath\\computer-wizard\\BCC\\disciplina-projeto-computacao-grafica\\Assets\\LeftHandTargetTransform.cs",
               "RelativeDocumentMoniker": "Assets\\LeftHandTargetTransform.cs",
               "ToolTip": "C:\\WizardPath\\computer-wizard\\BCC\\disciplina-projeto-computacao-grafica\\Assets\\LeftHandTargetTransform.cs",
               "RelativeToolTip": "Assets\\LeftHandTargetTransform.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T19:08:32.023Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-20T19:08:32.023Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "WeaponVisualController.cs",
               "DocumentMoniker": "C:\\WizardPath\\computer-wizard\\BCC\\disciplina-projeto-computacao-grafica\\Assets\\WeaponVisualController.cs",
               "RelativeDocumentMoniker": "Assets\\WeaponVisualController.cs",
               "ToolTip": "C:\\WizardPath\\computer-wizard\\BCC\\disciplina-projeto-computacao-grafica\\Assets\\WeaponVisualController.cs",
               "RelativeToolTip": "Assets\\WeaponVisualController.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAxwEAAAABGAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAgwHAAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T19:48:59.189Z"
+              "WhenOpened": "2024-09-18T19:48:59.189Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "PlayerWeaponController.cs",
               "DocumentMoniker": "C:\\WizardPath\\computer-wizard\\BCC\\disciplina-projeto-computacao-grafica\\Assets\\PlayerWeaponController.cs",
               "RelativeDocumentMoniker": "Assets\\PlayerWeaponController.cs",
@@ -71,7 +87,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\WizardPath\\computer-wizard\\BCC\\disciplina-projeto-computacao-grafica\\Assets\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\Player.cs",
@@ -83,7 +99,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "C:\\WizardPath\\computer-wizard\\BCC\\disciplina-projeto-computacao-grafica\\Assets\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\PlayerMovement.cs",

@@ -494,7 +494,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70b342d8ce5c2fd48b8fa3147d48d1d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Weight: 1
+  m_Weight: 0
   m_Effectors:
   - m_Transform: {fileID: 1703982166}
     m_Style:
@@ -1831,8 +1831,10 @@ MonoBehaviour:
   autoRifle: {fileID: 427849323}
   shotgun: {fileID: 665026160}
   rifle: {fileID: 923512065}
-  rigIncreaseStep: 2.5
-  leftHand: {fileID: 1703982166}
+  rigWeightIncreaseRate: 2.75
+  leftHandIkWeightIncreaseRate: 2.5
+  leftHandIK: {fileID: 2144279083}
+  leftHandIK_Target: {fileID: 1703982166}
 --- !u!1 &1799457941
 GameObject:
   m_ObjectHideFlags: 0
