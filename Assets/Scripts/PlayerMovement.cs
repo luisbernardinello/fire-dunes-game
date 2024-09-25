@@ -16,21 +16,18 @@ public class PlayerMovement : MonoBehaviour
     [Header("Movement info")]
     [SerializeField] private float walkSpeed;
     [SerializeField] private float runSpeed;
+    [SerializeField] private float turnSpeed;
+
     private float speed;
-    private Vector3 movementDirection;
     private float verticalVelocity;
+
+    private Vector3 movementDirection;
+    private Vector3 moveInput;
+    
+
     private bool isRunning;
 
 
-    [Header("Aim info")]
-    [SerializeField] private Transform aim;
-
-    [SerializeField] private LayerMask aimLayerMask;
-    private Vector3 lookingDirection;
-
-
-    private Vector2 moveInput;
-    private Vector2 aimInput;
 
 
     private void Start()
@@ -47,7 +44,7 @@ public class PlayerMovement : MonoBehaviour
     private void Update()
     {
         ApplyMovement();
-        AimTowardsMouse();
+        ApplyRotation();
         AnimatorControllers();
     }
 
@@ -67,20 +64,20 @@ public class PlayerMovement : MonoBehaviour
 
     }
 
-    private void AimTowardsMouse()
+    private void ApplyRotation()
     {
-        Ray ray = Camera.main.ScreenPointToRay(aimInput);
 
-        if (Physics.Raycast(ray, out var hitInfo, Mathf.Infinity, aimLayerMask))
-        {
-            lookingDirection = hitInfo.point - transform.position;
+
+            Vector3 lookingDirection = player.aim.GetMousePosition() - transform.position;
             lookingDirection.y = 0f;
             lookingDirection.Normalize(); //pega direcoes sem comprimento do vetor
 
-            transform.forward = lookingDirection;
+            //transform.forward = lookingDirection;
 
-            aim.position = new Vector3(hitInfo.point.x, transform.position.y + 1, hitInfo.point.z);
-        }
+            Quaternion desiredRotation = Quaternion.LookRotation(lookingDirection);
+
+            transform.rotation = Quaternion.Slerp(transform.rotation, desiredRotation, turnSpeed * Time.deltaTime);
+
     }
 
     private void ApplyMovement()
@@ -118,8 +115,6 @@ public class PlayerMovement : MonoBehaviour
         controls.Character.Movement.performed += context => moveInput = context.ReadValue<Vector2>();
         controls.Character.Movement.canceled += context => moveInput = Vector2.zero;
 
-        controls.Character.Aim.performed += context => aimInput = context.ReadValue<Vector2>();
-        controls.Character.Aim.canceled += context => aimInput = Vector2.zero;
 
         controls.Character.Run.performed += context =>
         {
@@ -128,7 +123,7 @@ public class PlayerMovement : MonoBehaviour
         };
         controls.Character.Run.canceled += context =>
         {
-            speed = runSpeed;
+            speed = walkSpeed;
             isRunning = false;
         };
     }
@@ -136,3 +131,4 @@ public class PlayerMovement : MonoBehaviour
 
 
 }
+
