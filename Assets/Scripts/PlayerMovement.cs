@@ -21,8 +21,8 @@ public class PlayerMovement : MonoBehaviour
     private float speed;
     private float verticalVelocity;
 
+    public Vector3 moveInput {  get; private set; }
     private Vector3 movementDirection;
-    private Vector3 moveInput;
     
 
     private bool isRunning;
@@ -68,7 +68,7 @@ public class PlayerMovement : MonoBehaviour
     {
 
 
-            Vector3 lookingDirection = player.aim.GetMousePosition() - transform.position;
+            Vector3 lookingDirection = player.aim.GetMouseHitInfo().point - transform.position;
             lookingDirection.y = 0f;
             lookingDirection.Normalize(); //pega direcoes sem comprimento do vetor
 

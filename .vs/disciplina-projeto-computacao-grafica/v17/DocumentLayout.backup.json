@@ -3,7 +3,19 @@
   "WorkspaceRootPath": "C:\\WizardPath\\computer-wizard\\BCC\\disciplina-projeto-computacao-grafica\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E28A46D1-9A83-8737-4862-4CAE54AD80C5}|Assembly-CSharp.csproj|c:\\wizardpath\\computer-wizard\\bcc\\disciplina-projeto-computacao-grafica\\assets\\scripts\\playerweaponvisuals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E28A46D1-9A83-8737-4862-4CAE54AD80C5}|Assembly-CSharp.csproj|C:\\WizardPath\\computer-wizard\\BCC\\disciplina-projeto-computacao-grafica\\assets\\scripts\\playeraim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E28A46D1-9A83-8737-4862-4CAE54AD80C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playeraim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E28A46D1-9A83-8737-4862-4CAE54AD80C5}|Assembly-CSharp.csproj|c:\\wizardpath\\computer-wizard\\bcc\\disciplina-projeto-computacao-grafica\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E28A46D1-9A83-8737-4862-4CAE54AD80C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E28A46D1-9A83-8737-4862-4CAE54AD80C5}|Assembly-CSharp.csproj|C:\\WizardPath\\computer-wizard\\BCC\\disciplina-projeto-computacao-grafica\\assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E28A46D1-9A83-8737-4862-4CAE54AD80C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E28A46D1-9A83-8737-4862-4CAE54AD80C5}|Assembly-CSharp.csproj|C:\\WizardPath\\computer-wizard\\BCC\\disciplina-projeto-computacao-grafica\\assets\\scripts\\playerweaponvisuals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E28A46D1-9A83-8737-4862-4CAE54AD80C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerweaponvisuals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -14,20 +26,59 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "PlayerWeaponVisuals.cs",
               "DocumentMoniker": "C:\\WizardPath\\computer-wizard\\BCC\\disciplina-projeto-computacao-grafica\\Assets\\Scripts\\PlayerWeaponVisuals.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerWeaponVisuals.cs",
               "ToolTip": "C:\\WizardPath\\computer-wizard\\BCC\\disciplina-projeto-computacao-grafica\\Assets\\Scripts\\PlayerWeaponVisuals.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerWeaponVisuals.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-23T16:39:26.318Z",
               "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerAim.cs",
+              "DocumentMoniker": "C:\\WizardPath\\computer-wizard\\BCC\\disciplina-projeto-computacao-grafica\\Assets\\Scripts\\PlayerAim.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerAim.cs",
+              "ToolTip": "C:\\WizardPath\\computer-wizard\\BCC\\disciplina-projeto-computacao-grafica\\Assets\\Scripts\\PlayerAim.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerAim.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwCAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T20:12:11.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "C:\\WizardPath\\computer-wizard\\BCC\\disciplina-projeto-computacao-grafica\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
+              "ToolTip": "C:\\WizardPath\\computer-wizard\\BCC\\disciplina-projeto-computacao-grafica\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAkwEMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T20:11:27.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\WizardPath\\computer-wizard\\BCC\\disciplina-projeto-computacao-grafica\\Assets\\Scripts\\Player.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player.cs",
+              "ToolTip": "C:\\WizardPath\\computer-wizard\\BCC\\disciplina-projeto-computacao-grafica\\Assets\\Scripts\\Player.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T20:09:36.689Z",
               "EditorCaption": ""
             }
           ]
