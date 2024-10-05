@@ -5,12 +5,17 @@ using UnityEngine;
 public class PlayerWeaponController : MonoBehaviour
 {
     private Player player;
+    private const float REFERENCE_BULLET_SPEED = 20;
+
+    [SerializeField] private Weapon currentWeapon;
+
+
+    [Header("Bullet details")]
 
     [SerializeField] private GameObject bulletPrefab;
     [SerializeField] private float bulletSpeed;
     [SerializeField] private Transform gunPoint;
 
-    private const float REFERENCE_BULLET_SPEED = 20;
 
 
     [SerializeField] private Transform weaponHolder;
@@ -21,10 +26,17 @@ public class PlayerWeaponController : MonoBehaviour
     {
         player = GetComponent<Player>();
         player.controls.Character.Fire.performed += context => Shoot();
+
+        currentWeapon.ammo = currentWeapon.maxAmmo;
     }
 
     private void Shoot()
     {
+        if(currentWeapon.ammo <= 0)
+        {
+            return;
+        }
+        currentWeapon.ammo--;
         
         GameObject newBullet = Instantiate(bulletPrefab, gunPoint.position, Quaternion.LookRotation(gunPoint.forward));
 
