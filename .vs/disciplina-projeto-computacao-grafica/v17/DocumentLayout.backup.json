@@ -3,32 +3,12 @@
   "WorkspaceRootPath": "C:\\wizard-path\\computer-wizard\\BCC\\disciplina-projeto-computacao-grafica\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E28A46D1-9A83-8737-4862-4CAE54AD80C5}|Assembly-CSharp.csproj|c:\\wizard-path\\computer-wizard\\bcc\\disciplina-projeto-computacao-grafica\\assets\\scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E28A46D1-9A83-8737-4862-4CAE54AD80C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E28A46D1-9A83-8737-4862-4CAE54AD80C5}|Assembly-CSharp.csproj|c:\\wizard-path\\computer-wizard\\bcc\\disciplina-projeto-computacao-grafica\\assets\\scripts\\item_pickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E28A46D1-9A83-8737-4862-4CAE54AD80C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\item_pickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E28A46D1-9A83-8737-4862-4CAE54AD80C5}|Assembly-CSharp.csproj|C:\\wizard-path\\computer-wizard\\BCC\\disciplina-projeto-computacao-grafica\\assets\\scripts\\playerweaponcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E28A46D1-9A83-8737-4862-4CAE54AD80C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerweaponcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E28A46D1-9A83-8737-4862-4CAE54AD80C5}|Assembly-CSharp.csproj|C:\\wizard-path\\computer-wizard\\BCC\\disciplina-projeto-computacao-grafica\\assets\\scripts\\target.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E28A46D1-9A83-8737-4862-4CAE54AD80C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\target.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E28A46D1-9A83-8737-4862-4CAE54AD80C5}|Assembly-CSharp.csproj|C:\\wizard-path\\computer-wizard\\BCC\\disciplina-projeto-computacao-grafica\\assets\\scripts\\playeraim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E28A46D1-9A83-8737-4862-4CAE54AD80C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playeraim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E28A46D1-9A83-8737-4862-4CAE54AD80C5}|Assembly-CSharp.csproj|C:\\wizard-path\\computer-wizard\\BCC\\disciplina-projeto-computacao-grafica\\assets\\scripts\\playerweaponvisuals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E28A46D1-9A83-8737-4862-4CAE54AD80C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerweaponvisuals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E28A46D1-9A83-8737-4862-4CAE54AD80C5}|Assembly-CSharp.csproj|C:\\wizard-path\\computer-wizard\\BCC\\disciplina-projeto-computacao-grafica\\assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E28A46D1-9A83-8737-4862-4CAE54AD80C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E28A46D1-9A83-8737-4862-4CAE54AD80C5}|Assembly-CSharp.csproj|C:\\wizard-path\\computer-wizard\\BCC\\disciplina-projeto-computacao-grafica\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E28A46D1-9A83-8737-4862-4CAE54AD80C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E28A46D1-9A83-8737-4862-4CAE54AD80C5}|Assembly-CSharp.csproj|c:\\wizard-path\\computer-wizard\\bcc\\disciplina-projeto-computacao-grafica\\assets\\scripts\\player\\playerweaponcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E28A46D1-9A83-8737-4862-4CAE54AD80C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerweaponcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,89 +22,29 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PlayerWeaponVisuals.cs",
-              "DocumentMoniker": "C:\\wizard-path\\computer-wizard\\BCC\\disciplina-projeto-computacao-grafica\\Assets\\Scripts\\PlayerWeaponVisuals.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerWeaponVisuals.cs",
-              "ToolTip": "C:\\wizard-path\\computer-wizard\\BCC\\disciplina-projeto-computacao-grafica\\Assets\\Scripts\\PlayerWeaponVisuals.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerWeaponVisuals.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAIwCkAAAACAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "PlayerWeaponController.cs",
+              "DocumentMoniker": "C:\\wizard-path\\computer-wizard\\BCC\\disciplina-projeto-computacao-grafica\\Assets\\Scripts\\Player\\PlayerWeaponController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerWeaponController.cs",
+              "ToolTip": "C:\\wizard-path\\computer-wizard\\BCC\\disciplina-projeto-computacao-grafica\\Assets\\Scripts\\Player\\PlayerWeaponController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerWeaponController.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAYwD8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T16:39:26.318Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Bullet.cs",
-              "DocumentMoniker": "C:\\wizard-path\\computer-wizard\\BCC\\disciplina-projeto-computacao-grafica\\Assets\\Scripts\\Bullet.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Bullet.cs",
-              "ToolTip": "C:\\wizard-path\\computer-wizard\\BCC\\disciplina-projeto-computacao-grafica\\Assets\\Scripts\\Bullet.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Bullet.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T17:06:39.594Z",
+              "WhenOpened": "2024-10-09T20:14:28.112Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Target.cs",
-              "DocumentMoniker": "C:\\wizard-path\\computer-wizard\\BCC\\disciplina-projeto-computacao-grafica\\Assets\\Scripts\\Target.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Target.cs",
-              "ToolTip": "C:\\wizard-path\\computer-wizard\\BCC\\disciplina-projeto-computacao-grafica\\Assets\\Scripts\\Target.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Target.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA6AAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Item_Pickup.cs",
+              "DocumentMoniker": "C:\\wizard-path\\computer-wizard\\BCC\\disciplina-projeto-computacao-grafica\\Assets\\Scripts\\Item_Pickup.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Item_Pickup.cs",
+              "ToolTip": "C:\\wizard-path\\computer-wizard\\BCC\\disciplina-projeto-computacao-grafica\\Assets\\Scripts\\Item_Pickup.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Item_Pickup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T17:35:29.9Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PlayerWeaponController.cs",
-              "DocumentMoniker": "C:\\wizard-path\\computer-wizard\\BCC\\disciplina-projeto-computacao-grafica\\Assets\\Scripts\\PlayerWeaponController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerWeaponController.cs",
-              "ToolTip": "C:\\wizard-path\\computer-wizard\\BCC\\disciplina-projeto-computacao-grafica\\Assets\\Scripts\\PlayerWeaponController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerWeaponController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCUAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T14:56:04.762Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PlayerAim.cs",
-              "DocumentMoniker": "C:\\wizard-path\\computer-wizard\\BCC\\disciplina-projeto-computacao-grafica\\Assets\\Scripts\\PlayerAim.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerAim.cs",
-              "ToolTip": "C:\\wizard-path\\computer-wizard\\BCC\\disciplina-projeto-computacao-grafica\\Assets\\Scripts\\PlayerAim.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerAim.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAgwFgAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T20:12:11.771Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PlayerMovement.cs",
-              "DocumentMoniker": "C:\\wizard-path\\computer-wizard\\BCC\\disciplina-projeto-computacao-grafica\\Assets\\Scripts\\PlayerMovement.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
-              "ToolTip": "C:\\wizard-path\\computer-wizard\\BCC\\disciplina-projeto-computacao-grafica\\Assets\\Scripts\\PlayerMovement.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAIwEMAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T20:11:27.824Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Player.cs",
-              "DocumentMoniker": "C:\\wizard-path\\computer-wizard\\BCC\\disciplina-projeto-computacao-grafica\\Assets\\Scripts\\Player.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player.cs",
-              "ToolTip": "C:\\wizard-path\\computer-wizard\\BCC\\disciplina-projeto-computacao-grafica\\Assets\\Scripts\\Player.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T20:09:36.689Z"
+              "WhenOpened": "2024-10-09T20:13:41.525Z",
+              "EditorCaption": ""
             }
           ]
         }
