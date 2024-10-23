@@ -147,7 +147,7 @@ Transform:
   m_GameObject: {fileID: 22233158}
   serializedVersion: 2
   m_LocalRotation: {x: 0.009316187, y: 0.00000014901156, z: 0.000000059604623, w: 0.9999566}
-  m_LocalPosition: {x: -0, y: 0.0382, z: 0.1788}
+  m_LocalPosition: {x: 0, y: 0.0402, z: 0.1788}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -387,6 +387,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2abe043fe6770614c8c69260c3b8217c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &136863593
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 136863594}
+  m_Layer: 8
+  m_Name: GunPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &136863594
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 136863593}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0, y: 0.0245, z: 0.3243}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 427849323}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &164134442
 GameObject:
   m_ObjectHideFlags: 0
@@ -469,6 +500,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 202461962}
+  - component: {fileID: 202461963}
   m_Layer: 8
   m_Name: Weapon_Revolver
   m_TagString: Untagged
@@ -492,8 +524,26 @@ Transform:
   - {fileID: 2751121232650762447}
   - {fileID: 585455958661137}
   - {fileID: 1379661704}
+  - {fileID: 1323560207}
   m_Father: {fileID: 1525995165}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &202461963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 202461961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb7d32cd8b80be240b3e381d7671ffcc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weaponType: 1
+  grabType: 0
+  holdType: 1
+  gunpoint: {fileID: 1323560207}
+  holdPoint: {fileID: 1379661704}
 --- !u!1 &297771937
 GameObject:
   m_ObjectHideFlags: 0
@@ -628,6 +678,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 427849323}
+  - component: {fileID: 427849324}
   m_Layer: 8
   m_Name: Weapon_Auto-Rifle
   m_TagString: Untagged
@@ -651,8 +702,26 @@ Transform:
   - {fileID: 6349384109908833897}
   - {fileID: 2571002476890011252}
   - {fileID: 77446324}
+  - {fileID: 136863594}
   m_Father: {fileID: 1525995165}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &427849324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 427849322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb7d32cd8b80be240b3e381d7671ffcc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weaponType: 2
+  grabType: 1
+  holdType: 1
+  gunpoint: {fileID: 136863594}
+  holdPoint: {fileID: 77446324}
 --- !u!1 &467777237
 GameObject:
   m_ObjectHideFlags: 0
@@ -697,6 +766,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2abe043fe6770614c8c69260c3b8217c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &566616420
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 566616421}
+  m_Layer: 8
+  m_Name: GunPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &566616421
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 566616420}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.0424, z: 0.6884}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 923512065}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &583162996
 GameObject:
   m_ObjectHideFlags: 0
@@ -909,6 +1009,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 665026160}
+  - component: {fileID: 665026161}
   m_Layer: 8
   m_Name: Weapon_Shotgun
   m_TagString: Untagged
@@ -932,8 +1033,26 @@ Transform:
   - {fileID: 7128689441742669859}
   - {fileID: 2433362144848488560}
   - {fileID: 47018447}
+  - {fileID: 1631601925}
   m_Father: {fileID: 1525995165}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &665026161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 665026159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb7d32cd8b80be240b3e381d7671ffcc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weaponType: 3
+  grabType: 1
+  holdType: 2
+  gunpoint: {fileID: 1631601925}
+  holdPoint: {fileID: 47018447}
 --- !u!1 &674659308
 GameObject:
   m_ObjectHideFlags: 0
@@ -1503,13 +1622,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 923512065}
+  - component: {fileID: 923512066}
   m_Layer: 8
   m_Name: Weapon_Rifle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &923512065
 Transform:
   m_ObjectHideFlags: 0
@@ -1527,8 +1647,26 @@ Transform:
   - {fileID: 1926134699358051422}
   - {fileID: 4216556850015589508}
   - {fileID: 467777238}
+  - {fileID: 566616421}
   m_Father: {fileID: 1525995165}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &923512066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 923512064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb7d32cd8b80be240b3e381d7671ffcc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weaponType: 4
+  grabType: 1
+  holdType: 3
+  gunpoint: {fileID: 566616421}
+  holdPoint: {fileID: 467777238}
 --- !u!1 &955288425
 GameObject:
   m_ObjectHideFlags: 0
@@ -2205,6 +2343,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1323560206
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1323560207}
+  m_Layer: 8
+  m_Name: GunPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1323560207
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1323560206}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.0009, y: 0.0324, z: 0.2594}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 202461962}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1349811068
 GameObject:
   m_ObjectHideFlags: 0
@@ -2421,6 +2590,37 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1605538094}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1631601924
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1631601925}
+  m_Layer: 8
+  m_Name: GunPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1631601925
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1631601924}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.0051, y: 0.0189, z: 0.3533}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 665026160}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1703982165
 GameObject:
   m_ObjectHideFlags: 0
@@ -2492,13 +2692,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1721273383}
+  - component: {fileID: 1721273384}
   m_Layer: 8
   m_Name: Weapon_Pistol
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1721273383
 Transform:
   m_ObjectHideFlags: 0
@@ -2518,6 +2719,23 @@ Transform:
   - {fileID: 22233159}
   m_Father: {fileID: 1525995165}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1721273384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1721273382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb7d32cd8b80be240b3e381d7671ffcc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weaponType: 0
+  grabType: 0
+  holdType: 1
+  gunpoint: {fileID: 22233159}
+  holdPoint: {fileID: 1148888076}
 --- !u!1 &1750315500
 GameObject:
   m_ObjectHideFlags: 0
@@ -2610,8 +2828,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentWeapon:
-    weaponType: 0
-    bulletsInMagazine: 0
+    weaponType: 4
+    bulletsInMagazine: 10
     magazineCapacity: 0
     totalReserveAmmo: 0
   bulletPrefab: {fileID: 7966584636299792236, guid: 4f08953bb5d17e74aa6fc4df23ff3160, type: 3}
@@ -2652,17 +2870,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 679afd47781220f4ca856fa0d5d54ed1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gunTransforms:
-  - {fileID: 1721273383}
-  - {fileID: 202461962}
-  - {fileID: 427849323}
-  - {fileID: 665026160}
-  - {fileID: 923512065}
-  pistol: {fileID: 1721273383}
-  revolver: {fileID: 202461962}
-  autoRifle: {fileID: 427849323}
-  shotgun: {fileID: 665026160}
-  rifle: {fileID: 923512065}
+  weaponModels: []
   rigWeightIncreaseRate: 2.75
   leftHandIkWeightIncreaseRate: 2.5
   leftHandIK: {fileID: 2144279083}

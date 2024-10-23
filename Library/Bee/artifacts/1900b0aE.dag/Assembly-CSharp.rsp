@@ -388,6 +388,7 @@
 "Assets/Scripts/Player/PlayerWeaponVisuals.cs"
 "Assets/Scripts/Target.cs"
 "Assets/Scripts/Weapon.cs"
+"Assets/Scripts/WeaponModel.cs"
 -langversion:9.0
 /deterministic
 /optimize+
